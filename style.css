@@ -1,0 +1,65 @@
+
+    html{
+        background-color: rgb(0, 0, 0);
+    }
+    body{
+        color: whitesmoke;
+        font-size: 15px;
+    }
+    .knowbutton{
+        color: rgb(5, 4, 73);
+        background-color: beige;
+        border:  none;
+        width: 200px;
+        height: 20px;
+        box-shadow: 0px 0px 8px rgb(149, 154, 196);
+        border-radius: 11px;
+        padding-top:8px ;
+        padding-bottom:8px ;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin: 10px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.1s;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.7;
+    }
+    .knowbutton:hover{
+        background-color: rgb(7, 5, 51);
+        color: white;
+    }
+    .knowbutton:active{
+        background-color: rgb(43, 6, 65);
+        color: rgb(187, 187, 187);
+        transition: 0.1s;
+    }
+    a   {
+        color: whitesmoke;
+        text-decoration: underline;
+    }
+    a:hover, a:visited {
+        color: aliceblue;
+        text-decoration: underline;
+    }
+    img {
+display: block; 
+align-items: center;
+        
+    }
+    table tr,td,th {
+        
+        border: 0.1px solid;
+        margin: auto;
+        border-collapse: collapse;
+        color: whitesmoke;
+        background-color: rgb(0, 0, 0);
+        background-color: solid ;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 0.5rem;
+
+    }
+    
